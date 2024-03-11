@@ -11,7 +11,9 @@ public class Loop {
       media += nota;
     }
 
-    System.out.println("media de avaliacoes: " + media / 3);
+    System.out.println("media de avaliacoes: " + media / 3);  
+
+    leitura.close();
 
   }
 }
