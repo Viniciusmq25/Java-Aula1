@@ -27,7 +27,9 @@ public class Desafio{
                           """);
 
       while (op != 4) {
+        System.out.println("");
         System.out.println("digite operção desejada");
+        System.out.println("");
         op = input.nextInt();
 
         switch (op) {
